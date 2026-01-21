@@ -2,8 +2,9 @@
 
 ## Overview
 This is a simple full stack web application developed as part of the Career-Mitra assignment.
-The purpose of this project is to demonstrate backend API development, frontend integration,
-and basic data handling in a real-world scenario.
+
+The objective of this project is to demonstrate backend API development, frontend integration,
+and basic data handling using a clean and structured approach.
 
 The application allows users to add student assessment details and view them in a dashboard.
 
@@ -11,17 +12,17 @@ The application allows users to add student assessment details and view them in 
 
 ## Features
 - Add student assessment data (Name, Class, Interests, Aptitude Score)
-- View all students in a tabular dashboard
-- REST APIs built using FastAPI
+- View all students in a clean tabular dashboard
+- REST API built using FastAPI
 - Frontend built using React
-- Data stored using SQLite database
+- SQLite database for persistence
 
 ---
 
 ## Tech Stack
 
 ### Frontend
-- React.js
+- React
 - Axios
 - Basic CSS
 
