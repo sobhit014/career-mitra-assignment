@@ -2,19 +2,18 @@
 
 ## Overview
 This is a simple full stack web application developed as part of the Career-Mitra assignment.
-
-The objective of this project is to demonstrate backend API development, frontend integration,
-and basic data handling using a clean and structured approach.
+The goal of this project is to demonstrate backend API development, frontend integration,
+and basic database handling.
 
 The application allows users to add student assessment details and view them in a dashboard.
 
 ---
 
 ## Features
-- Add student assessment data (Name, Class, Interests, Aptitude Score)
-- View all students in a clean tabular dashboard
-- REST API built using FastAPI
-- Frontend built using React
+- Add student details (Name, Class, Interests, Aptitude Score)
+- View student data in tabular format
+- REST API using FastAPI
+- React frontend with Axios integration
 - SQLite database for persistence
 
 ---
@@ -22,9 +21,9 @@ The application allows users to add student assessment details and view them in 
 ## Tech Stack
 
 ### Frontend
-- React
+- React.js
 - Axios
-- Basic CSS
+- CSS
 
 ### Backend
 - Python
@@ -35,4 +34,16 @@ The application allows users to add student assessment details and view them in 
 
 ---
 
-## Project Structure
+## Setup Instructions
+
+### Backend Setup
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+### frontend setup
+cd frontend
+npm install
+npm start
